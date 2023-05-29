@@ -14,7 +14,7 @@
 }
 
 .tetromino-i span {
-    background-color: cyan;
+    background-color: rgb(136, 252, 252);
 }
 
 .tetromino-i span:not(:last-child) {
@@ -27,7 +27,7 @@
 }
 
 .tetromino-j span {
-    background-color: blue;
+    background-color: rgb(255, 99, 172);
 }
 
 .tetromino-j span:not(:last-child) {
@@ -42,7 +42,7 @@
 
 /* S */
 .tetromino-s span {
-    background-color: green;
+    background-color: rgb(255, 109, 250);
 }
 
 .tetromino-s span:not(:last-child) {
@@ -67,7 +67,7 @@
 }
 
 .tetromino-l span {
-    background-color: orange;
+    background-color: rgb(222, 138, 255);
 }
 
 .tetromino-l span:not(:last-child) {
@@ -86,7 +86,7 @@
 }
 
 .tetromino-o span {
-    background-color: yellow;
+    background-color: rgb(254, 254, 138);
 }
 
 .tetromino-o span:first-child {
@@ -111,7 +111,7 @@
 
 /* Z */
 .tetromino-z span {
-    background-color: red;
+    background-color: rgba(255, 78, 137, 0.629);
 }
 
 .tetromino-z span:not(:last-child) {
@@ -132,7 +132,7 @@
 
 /* T */
 .tetromino-t span {
-    background-color: purple;
+    background-color: rgba(206, 55, 206, 0.845);
 }
 
 .tetromino-t span:not(:last-child) {

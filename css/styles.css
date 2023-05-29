@@ -3,9 +3,10 @@
 @import url('./tetromino.css');
 
 body {
-    background-image: url('../img/background.jpg');
-    background-size: cover;
-    background-position: center center;
+    background: linear-gradient(-45deg, #9801c6, #973fb1, #df28a2, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,6 +14,21 @@ body {
     margin: 0;
     height: 100vh;
 }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
 
 * {
     box-sizing: border-box;
@@ -25,7 +41,10 @@ body {
     width: 100%;
 }
 
+
 .title {
+    padding-top: 300px;
+    padding-right: 10px;
     margin: 0;
     margin-bottom: 20px;
     font-size: 40px;
@@ -42,8 +61,9 @@ body {
         0 0 151px #bc13fe;
 }
 
+
 .canvas-bg {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.642);
     margin-right: 15px;
     width: 320px;
 }
